@@ -743,7 +743,7 @@ h1 {
 
 .stages-of-transformation {
     margin-top: 185px;
-    margin-bottom: 121px;
+    margin-bottom: 136px;
 }
 
 .stages-of-transformation__subtitle {
@@ -844,6 +844,7 @@ h1 {
 @media (max-width: 1221px) {
     .stages-of-transformation {
         margin-top: 121px;
+        margin-bottom: 121px;
         padding: 0 20px;
         max-width: 840px;
     }
@@ -999,9 +1000,9 @@ h1 {
 
 .tournament-members__slider-controls {
     visibility: visible!important;
-    position: absolute;
-    margin-top: 10px;
-    right: 72px;
+    position: relative;
+    top: -605px;
+    right: 86px;
 }
 
 .tournament-members__member-cards {
@@ -1177,7 +1178,7 @@ h1 {
         font-weight: 600;
         line-height: 1.2em;
         color: #313131;
-        margin: 29px 0 7px;
+        margin: 29px 0 8px;
         transition: all 0.3s;
     }
     
